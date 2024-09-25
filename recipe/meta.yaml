@@ -1,5 +1,5 @@
 {% set name = "gitlab-ci-ls" %}
-{% set version = "0.21.2" %}
+{% set version = "0.21.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/alesbrelih/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 0998538bd43b75d68221d7f8e72c3f12adf2eb53e16d9e7419fa74534804e1c9
+  sha256: 0ea3c14cff9596aaee7ca2cd6e2520b25f85d9772df3dc7ba4a06c9813f9717e
 
 build:
   number: 0
