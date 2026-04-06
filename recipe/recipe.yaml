@@ -1,5 +1,5 @@
 context:
-  version: "1.2.5"
+  version: "1.3.0"
 
 package:
   name: gitlab-ci-ls
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/alesbrelih/gitlab-ci-ls/archive/${{ version }}.tar.gz
-  sha256: 8870284b7af4c7be3106d3c8f9fb23b9677530ad33e1673bab72d261a664e4a1
+  sha256: f2057583eac7423f6156a05d0e6eab7225e93f587ebd39c273d3561eb02f56bd
 
 build:
   number: 0
